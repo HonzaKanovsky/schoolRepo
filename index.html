@@ -1,16 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>e-shop</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Hello</h1>
-        
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Úvodní Stránka</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1><a href="index.html">E-shop</a></h1>
+        <div class="search-box">
+            <input type="text" placeholder="Hledat...">
+            <button type="submit"></button>
+        </div>
+        <nav>
+            <ul>
+                <li><button class="icon-button cart-icon"></button></li>
+                <li class="dropdown">
+                    <button class="icon-button menu-icon"></button>
+                    <div class="dropdown-content">
+                        <a href="#">Category 1</a>
+                        <a href="#">Category 2</a>
+                        <a href="#">Category 3</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="featured-products">
+            <h2>Nejprodávanější produkty</h2>
+            <div class="product-container">
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 1">
+                    <p>Product 1</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 2">
+                    <p>Product 2</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 3">
+                    <p>Product 3</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 4">
+                    <p>Product 4</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+
+        <section id="christmas-products">
+            <h2>Doporučení na vánoce</h2>
+            <div class="product-container">
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 1">
+                    <p>Product 1</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 2">
+                    <p>Product 2</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 3">
+                    <p>Product 3</p>
+                </div>
+                <div class="product">
+                    <img src="https://picsum.photos/300/200" alt="Product 4">
+                    <p>Product 4</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+        <!-- Další sekce a obsah podle požadavků -->
+
+        <article>
+            <header>
+                <h2>E-shop premium</h2>
+            </header>
+            <p>40% sleva s e-shop premium</p>
+        </article>
+
+        <!-- Další články a sekce -->
+
+        <aside>
+            <h2>Ostatní informace</h2>
+            <p>Další užitečné informace o našem e-shopu.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Web design projekt</p>
+    </footer>
+</body>
 </html>
